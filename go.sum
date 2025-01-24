@@ -1,2 +1,4 @@
+github.com/HimbeerserverDE/mt v0.0.0-20250124151607-b2c1ec5b4f2a h1:pv/umw2U710+YZUak91C67K3lOIMxuKyFWuDHpV+IfE=
+github.com/HimbeerserverDE/mt v0.0.0-20250124151607-b2c1ec5b4f2a/go.mod h1:RSf7NAuQ5zZC6CTPj5ey/uXPHOdu/oiIvHT8tH3fWK8=
 github.com/klauspost/compress v1.16.5 h1:IFV2oUNUzZaz+XyusxpLzpzS8Pt5rh0Z16For/djlyI=
 github.com/klauspost/compress v1.16.5/go.mod h1:ntbaceVETuRiXiv4DpjP66DpAtAGkEQskQzEyD//IeE=
