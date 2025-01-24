@@ -87,7 +87,7 @@ func (obj *ToSrvInit) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.CompressionModes", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.CompressionModes", err))
 	}
 	{
 		x := (*(*(struct {
@@ -197,7 +197,7 @@ func (obj *ToSrvInit) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.CompressionModes", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.CompressionModes", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -464,7 +464,7 @@ func (obj *ToSrvPlayerPos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerPos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.PlayerPos", err))
 	}
 }
 
@@ -477,7 +477,7 @@ func (obj *ToSrvPlayerPos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerPos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.PlayerPos", err))
 	}
 }
 
@@ -724,7 +724,7 @@ func (obj *ToSrvInteract) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Interaction", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Interaction", err))
 	}
 	{
 		x := (*(*(struct {
@@ -780,7 +780,7 @@ func (obj *ToSrvInteract) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerPos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.PlayerPos", err))
 	}
 }
 
@@ -798,7 +798,7 @@ func (obj *ToSrvInteract) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Interaction", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Interaction", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -850,7 +850,7 @@ func (obj *ToSrvInteract) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerPos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.PlayerPos", err))
 	}
 }
 
@@ -877,7 +877,7 @@ func (obj *ToSrvRemovedSounds) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundID", err))
 		}
 	}
 }
@@ -902,7 +902,7 @@ func (obj *ToSrvRemovedSounds) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundID", err))
 		}
 	}
 }
@@ -975,7 +975,7 @@ func (obj *ToSrvNodeMetaFields) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Field", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Field", err))
 		}
 	}
 }
@@ -1036,7 +1036,7 @@ func (obj *ToSrvNodeMetaFields) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Field", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Field", err))
 		}
 	}
 }
@@ -1088,7 +1088,7 @@ func (obj *ToSrvInvFields) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Field", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Field", err))
 		}
 	}
 }
@@ -1131,7 +1131,7 @@ func (obj *ToSrvInvFields) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Field", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Field", err))
 		}
 	}
 }
@@ -1796,7 +1796,7 @@ func (obj *ToCltHello) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.CompressionModes", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.CompressionModes", err))
 	}
 	{
 		x := (*(*(struct {
@@ -1820,7 +1820,7 @@ func (obj *ToCltHello) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AuthMethods", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AuthMethods", err))
 	}
 	if len(([]byte((*(*(struct {
 		SerializeVer uint8
@@ -1876,7 +1876,7 @@ func (obj *ToCltHello) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.CompressionModes", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.CompressionModes", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -1900,7 +1900,7 @@ func (obj *ToCltHello) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AuthMethods", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AuthMethods", err))
 	}
 	var local62 []uint8
 	var local63 uint16
@@ -1938,7 +1938,7 @@ func (obj *ToCltAcceptAuth) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 	{
 		x := (*(*(struct {
@@ -1981,7 +1981,7 @@ func (obj *ToCltAcceptAuth) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AuthMethods", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AuthMethods", err))
 	}
 }
 
@@ -2001,7 +2001,7 @@ func (obj *ToCltAcceptAuth) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -2044,7 +2044,7 @@ func (obj *ToCltAcceptAuth) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AuthMethods", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AuthMethods", err))
 	}
 }
 
@@ -2057,7 +2057,7 @@ func (obj *ToCltAcceptSudoMode) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AuthMethods", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AuthMethods", err))
 	}
 	{
 		local64 := [15]byte{}
@@ -2077,7 +2077,7 @@ func (obj *ToCltAcceptSudoMode) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AuthMethods", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AuthMethods", err))
 	}
 	{
 		var local65 [15]byte
@@ -2113,7 +2113,7 @@ func (obj *ToCltKick) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.KickReason", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.KickReason", err))
 	}
 	if !((*(*(struct {
 		Reason KickReason
@@ -2214,7 +2214,7 @@ func (obj *ToCltKick) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.KickReason", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.KickReason", err))
 	}
 	if !((*(*(struct {
 		Reason KickReason
@@ -2316,7 +2316,7 @@ func (obj *ToCltBlkData) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.MapBlk", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.MapBlk", err))
 		}
 		chk(w.Close())
 	}
@@ -2350,7 +2350,7 @@ func (obj *ToCltBlkData) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.MapBlk", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.MapBlk", err))
 		}
 		r.Close()
 	}
@@ -2381,7 +2381,7 @@ func (obj *ToCltAddNode) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Node", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Node", err))
 	}
 	{
 		x := (*(*(struct {
@@ -2422,7 +2422,7 @@ func (obj *ToCltAddNode) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Node", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Node", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -2537,7 +2537,7 @@ func (obj *ToCltCSMRestrictionFlags) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.CSMRestrictionFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.CSMRestrictionFlags", err))
 	}
 	{
 		x := (*(*(struct {
@@ -2564,7 +2564,7 @@ func (obj *ToCltCSMRestrictionFlags) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.CSMRestrictionFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.CSMRestrictionFlags", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -2587,7 +2587,7 @@ func (obj *ToCltAddPlayerVel) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 }
 
@@ -2600,7 +2600,7 @@ func (obj *ToCltAddPlayerVel) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 }
 
@@ -2767,7 +2767,7 @@ func (obj *ToCltChatMsg) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ChatMsgType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ChatMsgType", err))
 	}
 	local82 := utf16.Encode([]rune((*(*(struct {
 		Type ChatMsgType
@@ -2849,7 +2849,7 @@ func (obj *ToCltChatMsg) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ChatMsgType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ChatMsgType", err))
 	}
 	var local88 []uint16
 	var local89 uint16
@@ -2933,7 +2933,7 @@ func (obj *ToCltAORmAdd) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 		}
 	}
 	if len(((*(*(struct {
@@ -2962,7 +2962,7 @@ func (obj *ToCltAORmAdd) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOAdd", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOAdd", err))
 		}
 	}
 }
@@ -2990,7 +2990,7 @@ func (obj *ToCltAORmAdd) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 		}
 	}
 	var local98 uint16
@@ -3015,7 +3015,7 @@ func (obj *ToCltAORmAdd) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOAdd", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOAdd", err))
 		}
 	}
 }
@@ -3034,7 +3034,7 @@ func (obj *ToCltAOMsgs) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.IDAOMsg", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.IDAOMsg", err))
 		}
 	}
 }
@@ -3049,7 +3049,7 @@ func (obj *ToCltAOMsgs) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.IDAOMsg", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.IDAOMsg", err))
 			}
 		})
 		if err == io.EOF {
@@ -3121,7 +3121,7 @@ func (obj *ToCltMovePlayer) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 	{
 		x := (*(*(struct {
@@ -3149,7 +3149,7 @@ func (obj *ToCltMovePlayer) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -3293,7 +3293,7 @@ func (obj *ToCltDeathScreen) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 }
 
@@ -3321,7 +3321,7 @@ func (obj *ToCltDeathScreen) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 }
 
@@ -3966,7 +3966,7 @@ func (obj *ToCltItemDefs) serialize(w io.Writer) {
 					if err == io.EOF {
 						chk(io.EOF)
 					}
-					chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ItemDef", err))
+					chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ItemDef", err))
 				}
 			}
 			if len(((*(*(struct {
@@ -4091,7 +4091,7 @@ func (obj *ToCltItemDefs) deserialize(r io.Reader) {
 					if err == io.EOF {
 						chk(io.EOF)
 					}
-					chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ItemDef", err))
+					chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ItemDef", err))
 				}
 			}
 			var local132 uint16
@@ -4168,7 +4168,7 @@ func (obj *ToCltPlaySound) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundID", err))
 	}
 	if len(([]byte((*(*(struct {
 		ID      SoundID
@@ -4251,7 +4251,7 @@ func (obj *ToCltPlaySound) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundSrcType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundSrcType", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -4271,7 +4271,7 @@ func (obj *ToCltPlaySound) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -4291,7 +4291,7 @@ func (obj *ToCltPlaySound) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 	{
 		x := (*(*(struct {
@@ -4402,7 +4402,7 @@ func (obj *ToCltPlaySound) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundID", err))
 	}
 	var local138 []uint8
 	var local139 uint16
@@ -4462,7 +4462,7 @@ func (obj *ToCltPlaySound) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundSrcType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundSrcType", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -4482,7 +4482,7 @@ func (obj *ToCltPlaySound) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -4502,7 +4502,7 @@ func (obj *ToCltPlaySound) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -4609,7 +4609,7 @@ func (obj *ToCltStopSound) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundID", err))
 	}
 }
 
@@ -4622,7 +4622,7 @@ func (obj *ToCltStopSound) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundID", err))
 	}
 }
 
@@ -5565,7 +5565,7 @@ func (obj *ToCltSpawnParticle) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileAnim", err))
 	}
 	{
 		x := (*(*(struct {
@@ -5648,7 +5648,7 @@ func (obj *ToCltSpawnParticle) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Content", err))
 	}
 	{
 		x := (*(*(struct {
@@ -5775,7 +5775,7 @@ func (obj *ToCltSpawnParticle) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.RangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -5804,7 +5804,7 @@ func (obj *ToCltSpawnParticle) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.RangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -5833,7 +5833,7 @@ func (obj *ToCltSpawnParticle) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTexture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ParticleTexture", err))
 	}
 }
 
@@ -6188,7 +6188,7 @@ func (obj *ToCltSpawnParticle) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileAnim", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -6274,7 +6274,7 @@ func (obj *ToCltSpawnParticle) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Content", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -6401,7 +6401,7 @@ func (obj *ToCltSpawnParticle) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.RangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -6430,7 +6430,7 @@ func (obj *ToCltSpawnParticle) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.RangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -6459,7 +6459,7 @@ func (obj *ToCltSpawnParticle) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTexture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ParticleTexture", err))
 	}
 }
 
@@ -6613,7 +6613,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -6666,7 +6666,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -6719,7 +6719,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -6772,7 +6772,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -6825,7 +6825,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeF32", err))
 	}
 	{
 		x := (*(*(struct {
@@ -7077,7 +7077,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleSpawnerID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ParticleSpawnerID", err))
 	}
 	{
 		x := (*(*(struct {
@@ -7236,7 +7236,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -7289,7 +7289,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileAnim", err))
 	}
 	{
 		x := (*(*(struct {
@@ -7444,7 +7444,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Content", err))
 	}
 	{
 		x := (*(*(struct {
@@ -7595,7 +7595,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTexture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ParticleTexture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -7648,7 +7648,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -7701,7 +7701,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -7754,7 +7754,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -7807,7 +7807,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AttractionKind", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AttractionKind", err))
 	}
 	if (*(*(struct {
 		Amount         uint16
@@ -7906,7 +7906,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeF32", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -7959,7 +7959,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenV3F32", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenV3F32", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -8012,7 +8012,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -8065,7 +8065,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleSpawnerFlags", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ParticleSpawnerFlags", err))
 		}
 		if (*(*(struct {
 			Amount         uint16
@@ -8164,7 +8164,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenV3F32", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenV3F32", err))
 			}
 			if err := pcall(func() {
 				((*(*(struct {
@@ -8217,7 +8217,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 			}
 		}
 	}
@@ -8272,7 +8272,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeV3F32", err))
 	}
 	if len(((*(*(struct {
 		Amount         uint16
@@ -8468,7 +8468,7 @@ func (obj *ToCltAddParticleSpawner) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTexture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ParticleTexture", err))
 		}
 	}
 }
@@ -8623,7 +8623,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -8676,7 +8676,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -8729,7 +8729,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -8782,7 +8782,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -8835,7 +8835,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeF32", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -9001,7 +9001,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleSpawnerID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ParticleSpawnerID", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -9166,7 +9166,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -9219,7 +9219,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileAnim", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -9377,7 +9377,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Content", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -9528,7 +9528,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTexture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ParticleTexture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -9581,7 +9581,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -9634,7 +9634,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -9687,7 +9687,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -9740,7 +9740,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AttractionKind", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AttractionKind", err))
 	}
 	if (*(*(struct {
 		Amount         uint16
@@ -9839,7 +9839,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeF32", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeF32", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -9892,7 +9892,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenV3F32", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenV3F32", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -9945,7 +9945,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -9998,7 +9998,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleSpawnerFlags", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ParticleSpawnerFlags", err))
 		}
 		if (*(*(struct {
 			Amount         uint16
@@ -10097,7 +10097,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenV3F32", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenV3F32", err))
 			}
 			if err := pcall(func() {
 				((*(*(struct {
@@ -10150,7 +10150,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 			}
 		}
 	}
@@ -10205,7 +10205,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenRangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenRangeV3F32", err))
 	}
 	var local167 uint16
 	{
@@ -10355,7 +10355,7 @@ func (obj *ToCltAddParticleSpawner) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTexture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ParticleTexture", err))
 		}
 	}
 }
@@ -10370,7 +10370,7 @@ func (obj *ToCltAddHUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -10381,7 +10381,7 @@ func (obj *ToCltAddHUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUD", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUD", err))
 	}
 }
 
@@ -10395,7 +10395,7 @@ func (obj *ToCltAddHUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -10406,7 +10406,7 @@ func (obj *ToCltAddHUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUD", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUD", err))
 	}
 }
 
@@ -10419,7 +10419,7 @@ func (obj *ToCltRmHUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDID", err))
 	}
 }
 
@@ -10432,7 +10432,7 @@ func (obj *ToCltRmHUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDID", err))
 	}
 }
 
@@ -10489,7 +10489,7 @@ func (obj *ToCltChangeHUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -10543,7 +10543,7 @@ func (obj *ToCltChangeHUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDField", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDField", err))
 	}
 	if !((*(*(struct {
 		ID HUDID
@@ -11965,7 +11965,7 @@ func (obj *ToCltChangeHUD) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 		}
 	}
 	if (*(*(struct {
@@ -12508,7 +12508,7 @@ func (obj *ToCltChangeHUD) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDStyleFlags", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDStyleFlags", err))
 		}
 	}
 }
@@ -12566,7 +12566,7 @@ func (obj *ToCltChangeHUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -12620,7 +12620,7 @@ func (obj *ToCltChangeHUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDField", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDField", err))
 	}
 	if !((*(*(struct {
 		ID HUDID
@@ -13860,7 +13860,7 @@ func (obj *ToCltChangeHUD) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 		}
 	}
 	if (*(*(struct {
@@ -14312,7 +14312,7 @@ func (obj *ToCltChangeHUD) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDStyleFlags", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDStyleFlags", err))
 		}
 	}
 }
@@ -14328,7 +14328,7 @@ func (obj *ToCltHUDFlags) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDFlags", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -14340,7 +14340,7 @@ func (obj *ToCltHUDFlags) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDFlags", err))
 	}
 }
 
@@ -14355,7 +14355,7 @@ func (obj *ToCltHUDFlags) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDFlags", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -14367,7 +14367,7 @@ func (obj *ToCltHUDFlags) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDFlags", err))
 	}
 }
 
@@ -14387,7 +14387,7 @@ func (obj *ToCltSetHotbarParam) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HotbarParam", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HotbarParam", err))
 	}
 	if (*(*(struct {
 		Param HotbarParam
@@ -14445,7 +14445,7 @@ func (obj *ToCltSetHotbarParam) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 	}
 }
@@ -14466,7 +14466,7 @@ func (obj *ToCltSetHotbarParam) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HotbarParam", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HotbarParam", err))
 	}
 	if (*(*(struct {
 		Param HotbarParam
@@ -14528,7 +14528,7 @@ func (obj *ToCltSetHotbarParam) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 	}
 }
@@ -14939,7 +14939,7 @@ func (obj *ToCltSkyParams) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 			}
 		}
 	}
@@ -15537,7 +15537,7 @@ func (obj *ToCltSkyParams) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 			}
 		}
 	}
@@ -16023,7 +16023,7 @@ func (obj *ToCltEyeOffset) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -16033,7 +16033,7 @@ func (obj *ToCltEyeOffset) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -16043,7 +16043,7 @@ func (obj *ToCltEyeOffset) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 }
 
@@ -16056,7 +16056,7 @@ func (obj *ToCltEyeOffset) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -16066,7 +16066,7 @@ func (obj *ToCltEyeOffset) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -16076,7 +16076,7 @@ func (obj *ToCltEyeOffset) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 }
 
@@ -16089,7 +16089,7 @@ func (obj *ToCltDelParticleSpawner) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleSpawnerID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ParticleSpawnerID", err))
 	}
 }
 
@@ -16102,7 +16102,7 @@ func (obj *ToCltDelParticleSpawner) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleSpawnerID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ParticleSpawnerID", err))
 	}
 }
 
@@ -16273,7 +16273,7 @@ func (obj *ToCltFadeSound) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundID", err))
 	}
 	{
 		x := (*(*(struct {
@@ -16304,7 +16304,7 @@ func (obj *ToCltFadeSound) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundID", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -16334,7 +16334,7 @@ func (obj *ToCltUpdatePlayerList) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerListUpdateType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.PlayerListUpdateType", err))
 	}
 	if len(((*(*(struct {
 		Type    PlayerListUpdateType
@@ -16386,7 +16386,7 @@ func (obj *ToCltUpdatePlayerList) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerListUpdateType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.PlayerListUpdateType", err))
 	}
 	var local206 uint16
 	{
@@ -16552,7 +16552,7 @@ func (obj *ToCltModChanSig) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ModChanSig", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ModChanSig", err))
 	}
 	if len(([]byte((*(*(struct {
 		Signal  ModChanSig
@@ -16586,7 +16586,7 @@ func (obj *ToCltModChanSig) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ModChanSig", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ModChanSig", err))
 	}
 	var local216 []uint8
 	var local217 uint16
@@ -16740,7 +16740,7 @@ func (obj *ToCltSunParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -16755,7 +16755,7 @@ func (obj *ToCltSunParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -16770,7 +16770,7 @@ func (obj *ToCltSunParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	{
 		x := (*(*(struct {
@@ -16832,7 +16832,7 @@ func (obj *ToCltSunParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -16847,7 +16847,7 @@ func (obj *ToCltSunParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -16862,7 +16862,7 @@ func (obj *ToCltSunParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -16920,7 +16920,7 @@ func (obj *ToCltMoonParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -16933,7 +16933,7 @@ func (obj *ToCltMoonParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	{
 		x := (*(*(struct {
@@ -16974,7 +16974,7 @@ func (obj *ToCltMoonParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -16987,7 +16987,7 @@ func (obj *ToCltMoonParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -17126,7 +17126,7 @@ func (obj *ToCltMovePlayerRel) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 }
 
@@ -17139,7 +17139,7 @@ func (obj *ToCltMovePlayerRel) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 }
 
@@ -17515,7 +17515,7 @@ func (obj *AOCmdProps) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOProps", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOProps", err))
 	}
 }
 
@@ -17528,7 +17528,7 @@ func (obj *AOCmdProps) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOProps", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOProps", err))
 	}
 }
 
@@ -17541,7 +17541,7 @@ func (obj *AOCmdPos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOPos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOPos", err))
 	}
 }
 
@@ -17554,7 +17554,7 @@ func (obj *AOCmdPos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOPos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOPos", err))
 	}
 }
 
@@ -17567,7 +17567,7 @@ func (obj *AOCmdTextureMod) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 }
 
@@ -17580,7 +17580,7 @@ func (obj *AOCmdTextureMod) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 }
 
@@ -17593,7 +17593,7 @@ func (obj *AOCmdSprite) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOSprite", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOSprite", err))
 	}
 }
 
@@ -17606,7 +17606,7 @@ func (obj *AOCmdSprite) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOSprite", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOSprite", err))
 	}
 }
 
@@ -17651,7 +17651,7 @@ func (obj *AOCmdArmorGroups) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Group", err))
 		}
 	}
 }
@@ -17676,7 +17676,7 @@ func (obj *AOCmdArmorGroups) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Group", err))
 		}
 	}
 }
@@ -17690,7 +17690,7 @@ func (obj *AOCmdAnim) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOAnim", err))
 	}
 }
 
@@ -17703,7 +17703,7 @@ func (obj *AOCmdAnim) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOAnim", err))
 	}
 }
 
@@ -17737,7 +17737,7 @@ func (obj *AOCmdBonePos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOBoneOverride", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOBoneOverride", err))
 	}
 }
 
@@ -17766,7 +17766,7 @@ func (obj *AOCmdBonePos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOBoneOverride", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOBoneOverride", err))
 	}
 }
 
@@ -17779,7 +17779,7 @@ func (obj *AOCmdAttach) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOAttach", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOAttach", err))
 	}
 }
 
@@ -17792,7 +17792,7 @@ func (obj *AOCmdAttach) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOAttach", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOAttach", err))
 	}
 }
 
@@ -17805,7 +17805,7 @@ func (obj *AOCmdPhysOverride) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOPhysOverride", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOPhysOverride", err))
 	}
 }
 
@@ -17818,7 +17818,7 @@ func (obj *AOCmdPhysOverride) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOPhysOverride", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOPhysOverride", err))
 	}
 }
 
@@ -17831,7 +17831,7 @@ func (obj *AOCmdSpawnInfant) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 	{
 		local227 := genericCAO
@@ -17841,7 +17841,7 @@ func (obj *AOCmdSpawnInfant) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.aoType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.aoType", err))
 		}
 	}
 }
@@ -17855,7 +17855,7 @@ func (obj *AOCmdSpawnInfant) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 	{
 		var local228 aoType
@@ -17866,7 +17866,7 @@ func (obj *AOCmdSpawnInfant) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.aoType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.aoType", err))
 		}
 		if local228 != local229 {
 			chk(fmt.Errorf("const %v: %v", "genericCAO", local228))
@@ -17927,7 +17927,7 @@ func (obj *NodeMeta) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeMetaField", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.NodeMetaField", err))
 		}
 	}
 	chk(((*(*(struct {
@@ -17967,7 +17967,7 @@ func (obj *NodeMeta) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeMetaField", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.NodeMetaField", err))
 		}
 	}
 	chk(((*(*(struct {
@@ -17991,7 +17991,7 @@ func (obj *MinimapMode) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.MinimapType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.MinimapType", err))
 	}
 	if len(([]byte((*(*(struct {
 		Type  MinimapType
@@ -18044,7 +18044,7 @@ func (obj *MinimapMode) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	{
 		x := (*(*(struct {
@@ -18071,7 +18071,7 @@ func (obj *MinimapMode) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.MinimapType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.MinimapType", err))
 	}
 	var local233 []uint8
 	var local234 uint16
@@ -18113,7 +18113,7 @@ func (obj *MinimapMode) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -18200,7 +18200,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Content", err))
 	}
 	{
 		ow := w
@@ -18699,7 +18699,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Group", err))
 			}
 		}
 		if err := pcall(func() {
@@ -18774,7 +18774,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Param1Type", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Param1Type", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -18848,7 +18848,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Param2Type", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Param2Type", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -18922,7 +18922,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DrawType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.DrawType", err))
 		}
 		if len(([]byte((*(*(struct {
 			Param0 Content
@@ -19349,7 +19349,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileDef", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileDef", err))
 			}
 		}
 		for local239 := range (*(*(struct {
@@ -19491,7 +19491,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileDef", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileDef", err))
 			}
 		}
 		{
@@ -19640,7 +19640,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileDef", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileDef", err))
 			}
 		}
 		{
@@ -19785,7 +19785,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -19859,7 +19859,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.WaveType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.WaveType", err))
 		}
 		{
 			x := (*(*(struct {
@@ -20209,7 +20209,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Content", err))
 			}
 		}
 		{
@@ -20790,7 +20790,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PointabilityType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.PointabilityType", err))
 		}
 		{
 			x := (*(*(struct {
@@ -21230,7 +21230,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.LiquidType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.LiquidType", err))
 		}
 		if len(([]byte((*(*(struct {
 			Param0 Content
@@ -22080,7 +22080,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBox", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.NodeBox", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -22154,7 +22154,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBox", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.NodeBox", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -22228,7 +22228,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBox", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.NodeBox", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -22302,7 +22302,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -22376,7 +22376,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -22450,7 +22450,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundDef", err))
 		}
 		{
 			x := (*(*(struct {
@@ -22951,7 +22951,7 @@ func (obj *NodeDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AlphaUse", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AlphaUse", err))
 		}
 		{
 			x := (*(*(struct {
@@ -23262,7 +23262,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Content", err))
 	}
 	{
 		var n uint16
@@ -23571,7 +23571,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Group", err))
 			}
 		}
 		if err := pcall(func() {
@@ -23646,7 +23646,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Param1Type", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Param1Type", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -23720,7 +23720,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Param2Type", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Param2Type", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -23794,7 +23794,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DrawType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.DrawType", err))
 		}
 		var local249 []uint8
 		var local250 uint16
@@ -24094,7 +24094,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileDef", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileDef", err))
 			}
 		}
 		for local254 := range (*(*(struct {
@@ -24236,7 +24236,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileDef", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileDef", err))
 			}
 		}
 		{
@@ -24389,7 +24389,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileDef", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileDef", err))
 			}
 		}
 		{
@@ -24534,7 +24534,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -24608,7 +24608,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.WaveType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.WaveType", err))
 		}
 		{
 			p := &(*(*(struct {
@@ -24891,7 +24891,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Content", err))
 			}
 		}
 		{
@@ -25484,7 +25484,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PointabilityType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.PointabilityType", err))
 		}
 		{
 			p := &(*(*(struct {
@@ -25936,7 +25936,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.LiquidType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.LiquidType", err))
 		}
 		var local260 []uint8
 		var local261 uint16
@@ -26530,7 +26530,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBox", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.NodeBox", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -26604,7 +26604,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBox", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.NodeBox", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -26678,7 +26678,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBox", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.NodeBox", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -26752,7 +26752,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -26826,7 +26826,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -26900,7 +26900,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundDef", err))
 		}
 		{
 			p := &(*(*(struct {
@@ -27276,7 +27276,7 @@ func (obj *NodeDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AlphaUse", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AlphaUse", err))
 		}
 		{
 			p := &(*(*(struct {
@@ -27563,7 +27563,7 @@ func (obj *PointedAO) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 }
 
@@ -27576,7 +27576,7 @@ func (obj *PointedAO) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 }
 
@@ -27670,7 +27670,7 @@ func (obj *PlayerPos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Keys", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Keys", err))
 	}
 	{
 		x := (*(*(struct {
@@ -27707,7 +27707,7 @@ func (obj *PlayerPos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerPosFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.PlayerPosFlags", err))
 	}
 }
 
@@ -27787,7 +27787,7 @@ func (obj *PlayerPos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Keys", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Keys", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -27824,7 +27824,7 @@ func (obj *PlayerPos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PlayerPosFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.PlayerPosFlags", err))
 	}
 }
 
@@ -27969,7 +27969,7 @@ func (obj *Pos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 }
 
@@ -27980,7 +27980,7 @@ func (obj *Pos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 }
 
@@ -28014,7 +28014,7 @@ func (obj *MapBlk) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.MapBlkFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.MapBlkFlags", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -28031,7 +28031,7 @@ func (obj *MapBlk) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.LitFromBlks", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.LitFromBlks", err))
 	}
 	{
 		local278 := uint8(2) // Size of param0 in bytes.
@@ -28072,7 +28072,7 @@ func (obj *MapBlk) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Content", err))
 		}
 	}
 	{
@@ -28163,7 +28163,7 @@ func (obj *MapBlk) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.MapBlkFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.MapBlkFlags", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -28180,7 +28180,7 @@ func (obj *MapBlk) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.LitFromBlks", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.LitFromBlks", err))
 	}
 	{
 		var local281 uint8
@@ -28229,7 +28229,7 @@ func (obj *MapBlk) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Content", err))
 		}
 	}
 	{
@@ -28299,7 +28299,7 @@ func (obj *Node) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Content", err))
 	}
 	{
 		x := (*(*(struct {
@@ -28327,7 +28327,7 @@ func (obj *Node) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Content", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Content", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -28417,7 +28417,7 @@ func (obj *AOAdd) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 	{
 		local288 := genericCAO
@@ -28427,7 +28427,7 @@ func (obj *AOAdd) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.aoType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.aoType", err))
 		}
 	}
 	{
@@ -28444,7 +28444,7 @@ func (obj *AOAdd) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOInitData", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOInitData", err))
 		}
 		{
 			buf := w
@@ -28476,7 +28476,7 @@ func (obj *AOAdd) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 	{
 		var local289 aoType
@@ -28487,7 +28487,7 @@ func (obj *AOAdd) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.aoType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.aoType", err))
 		}
 		if local289 != local290 {
 			chk(fmt.Errorf("const %v: %v", "genericCAO", local289))
@@ -28511,7 +28511,7 @@ func (obj *AOAdd) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOInitData", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOInitData", err))
 		}
 		if r.N > 0 {
 			chk(fmt.Errorf("%d bytes of trailing data", r.N))
@@ -28530,7 +28530,7 @@ func (obj *IDAOMsg) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 	{
 		ow := w
@@ -28572,7 +28572,7 @@ func (obj *IDAOMsg) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 	{
 		var n uint16
@@ -28666,7 +28666,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ItemType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ItemType", err))
 		}
 		if len(([]byte((*(*(struct {
 			Type ItemType
@@ -29046,7 +29046,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -29104,7 +29104,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 		for local292 := range (*(*(struct {
 			Type ItemType
@@ -29438,7 +29438,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ToolCaps", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ToolCaps", err))
 		}
 		if len(((*(*(struct {
 			Type ItemType
@@ -29654,7 +29654,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Group", err))
 			}
 		}
 		if len(([]byte((*(*(struct {
@@ -29874,7 +29874,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -29932,7 +29932,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundDef", err))
 		}
 		{
 			x := (*(*(struct {
@@ -30044,7 +30044,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 		{
 			x := (*(*(struct {
@@ -30156,7 +30156,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -30214,7 +30214,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 		if len(([]byte((*(*(struct {
 			Type ItemType
@@ -30433,7 +30433,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -30491,7 +30491,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundDef", err))
 		}
 		{
 			x := (*(*(struct {
@@ -30771,7 +30771,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteraction", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TouchInteraction", err))
 		}
 		if len(([]byte((*(*(struct {
 			Type ItemType
@@ -31099,7 +31099,7 @@ func (obj *ItemDef) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.WearBarParams", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.WearBarParams", err))
 			}
 		}
 		{
@@ -31195,7 +31195,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ItemType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ItemType", err))
 		}
 		var local296 []uint8
 		var local297 uint16
@@ -31377,7 +31377,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -31435,7 +31435,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 		for local300 := range (*(*(struct {
 			Type ItemType
@@ -31775,7 +31775,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ToolCaps", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ToolCaps", err))
 		}
 		var local301 uint16
 		{
@@ -31940,7 +31940,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Group", err))
 			}
 		}
 		var local303 []uint8
@@ -32061,7 +32061,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -32119,7 +32119,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundDef", err))
 		}
 		{
 			p := &(*(*(struct {
@@ -32231,7 +32231,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 		{
 			p := &(*(*(struct {
@@ -32343,7 +32343,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -32401,7 +32401,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 		var local305 []uint8
 		var local306 uint16
@@ -32521,7 +32521,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundDef", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -32579,7 +32579,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.SoundDef", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.SoundDef", err))
 		}
 		{
 			p := &(*(*(struct {
@@ -32865,7 +32865,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteraction", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TouchInteraction", err))
 		}
 		var local307 []uint8
 		var local308 uint16
@@ -33097,7 +33097,7 @@ func (obj *ItemDef) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.WearBarParams", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.WearBarParams", err))
 			}
 		}
 		if r.N > 0 {
@@ -33139,7 +33139,7 @@ func (obj *TileAnim) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AnimType", err))
 	}
 	if !((*(*(struct {
 		Type AnimType
@@ -33281,7 +33281,7 @@ func (obj *TileAnim) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AnimType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AnimType", err))
 	}
 	if !((*(*(struct {
 		Type AnimType
@@ -33548,7 +33548,7 @@ func (obj *ParticleTexture) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTextureFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ParticleTextureFlags", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -33563,7 +33563,7 @@ func (obj *ParticleTexture) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -33578,7 +33578,7 @@ func (obj *ParticleTexture) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenV2F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenV2F32", err))
 	}
 	if (*(*(struct {
 		Flags ParticleTextureFlags
@@ -33601,7 +33601,7 @@ func (obj *ParticleTexture) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileAnim", err))
 		}
 	}
 }
@@ -33620,7 +33620,7 @@ func (obj *ParticleTexture) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ParticleTextureFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ParticleTextureFlags", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -33635,7 +33635,7 @@ func (obj *ParticleTexture) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -33650,7 +33650,7 @@ func (obj *ParticleTexture) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenV2F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenV2F32", err))
 	}
 	if (*(*(struct {
 		Flags ParticleTextureFlags
@@ -33673,7 +33673,7 @@ func (obj *ParticleTexture) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileAnim", err))
 		}
 	}
 }
@@ -33690,7 +33690,7 @@ func (obj *TweenRangeV3F32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenStyle", err))
 	}
 	{
 		x := (*(*(struct {
@@ -33721,7 +33721,7 @@ func (obj *TweenRangeV3F32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.RangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -33734,7 +33734,7 @@ func (obj *TweenRangeV3F32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.RangeV3F32", err))
 	}
 }
 
@@ -33750,7 +33750,7 @@ func (obj *TweenRangeV3F32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenStyle", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -33781,7 +33781,7 @@ func (obj *TweenRangeV3F32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.RangeV3F32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -33794,7 +33794,7 @@ func (obj *TweenRangeV3F32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeV3F32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.RangeV3F32", err))
 	}
 }
 
@@ -33810,7 +33810,7 @@ func (obj *TweenRangeF32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenStyle", err))
 	}
 	{
 		x := (*(*(struct {
@@ -33841,7 +33841,7 @@ func (obj *TweenRangeF32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.RangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -33854,7 +33854,7 @@ func (obj *TweenRangeF32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.RangeF32", err))
 	}
 }
 
@@ -33870,7 +33870,7 @@ func (obj *TweenRangeF32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenStyle", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -33901,7 +33901,7 @@ func (obj *TweenRangeF32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.RangeF32", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -33914,7 +33914,7 @@ func (obj *TweenRangeF32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.RangeF32", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.RangeF32", err))
 	}
 }
 
@@ -33958,7 +33958,7 @@ func (obj *TweenV3F32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenStyle", err))
 	}
 	{
 		x := (*(*(struct {
@@ -34024,7 +34024,7 @@ func (obj *TweenV3F32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenStyle", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -34130,7 +34130,7 @@ func (obj *HUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDType", err))
 	}
 	for local319 := range (*(*(struct {
 		Type HUDType
@@ -34502,7 +34502,7 @@ func (obj *HUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 	for local323 := range (*(*(struct {
 		Type HUDType
@@ -34650,7 +34650,7 @@ func (obj *HUD) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDStyleFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDStyleFlags", err))
 	}
 }
 
@@ -34678,7 +34678,7 @@ func (obj *HUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDType", err))
 	}
 	for local324 := range (*(*(struct {
 		Type HUDType
@@ -34984,7 +34984,7 @@ func (obj *HUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 	for local332 := range (*(*(struct {
 		Type HUDType
@@ -35099,7 +35099,7 @@ func (obj *HUD) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.HUDStyleFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.HUDStyleFlags", err))
 	}
 }
 
@@ -35390,7 +35390,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -35434,7 +35434,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -35478,7 +35478,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PointabilityType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.PointabilityType", err))
 	}
 	if len(([]byte((*(*(struct {
 		MaxHP            uint16 // Player only.
@@ -35835,7 +35835,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 	}
 	for local340 := range (*(*(struct {
@@ -37293,7 +37293,7 @@ func (obj *AOProps) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	{
 		x := (*(*(struct {
@@ -37650,7 +37650,7 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -37694,7 +37694,7 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -37738,7 +37738,7 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.PointabilityType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.PointabilityType", err))
 	}
 	var local345 []uint8
 	var local346 uint16
@@ -37987,7 +37987,7 @@ func (obj *AOProps) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 		}
 	}
 	for local350 := range (*(*(struct {
@@ -39142,7 +39142,7 @@ func (obj *AOProps) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -39342,7 +39342,7 @@ func (obj *AOPos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -39358,7 +39358,7 @@ func (obj *AOPos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -39374,7 +39374,7 @@ func (obj *AOPos) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 	for local362 := range (*(*(struct {
 		Pos
@@ -39459,7 +39459,7 @@ func (obj *AOPos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -39475,7 +39475,7 @@ func (obj *AOPos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -39491,7 +39491,7 @@ func (obj *AOPos) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 	for local363 := range (*(*(struct {
 		Pos
@@ -39843,7 +39843,7 @@ func (obj *AOBoneOverride) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 	for local370 := range (*(*(struct {
 		Pos              Vec
@@ -39939,7 +39939,7 @@ func (obj *AOBoneOverride) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AbsoluteFlag", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AbsoluteFlag", err))
 	}
 }
 
@@ -39958,7 +39958,7 @@ func (obj *AOBoneOverride) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 	for local372 := range (*(*(struct {
 		Pos              Vec
@@ -40054,7 +40054,7 @@ func (obj *AOBoneOverride) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AbsoluteFlag", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AbsoluteFlag", err))
 	}
 }
 
@@ -40071,7 +40071,7 @@ func (obj *AOAttach) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 	if len(([]byte((*(*(struct {
 		ParentID     AOID
@@ -40114,7 +40114,7 @@ func (obj *AOAttach) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 	for local374 := range (*(*(struct {
 		ParentID     AOID
@@ -40163,7 +40163,7 @@ func (obj *AOAttach) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 	var local375 []uint8
 	var local376 uint16
@@ -40195,7 +40195,7 @@ func (obj *AOAttach) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 	}
 	for local377 := range (*(*(struct {
 		ParentID     AOID
@@ -40713,7 +40713,7 @@ func (obj *NodeMetaField) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Field", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Field", err))
 	}
 	{
 		x := (*(*(struct {
@@ -40738,7 +40738,7 @@ func (obj *NodeMetaField) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Field", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Field", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -40839,7 +40839,7 @@ func (obj *TileDef) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -40860,7 +40860,7 @@ func (obj *TileDef) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileAnim", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -40881,7 +40881,7 @@ func (obj *TileDef) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileFlags", err))
 	}
 	if (*(*(struct {
 		Texture
@@ -41014,7 +41014,7 @@ func (obj *TileDef) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AlignType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AlignType", err))
 		}
 	}
 }
@@ -41050,7 +41050,7 @@ func (obj *TileDef) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Texture", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Texture", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -41071,7 +41071,7 @@ func (obj *TileDef) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileAnim", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileAnim", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -41092,7 +41092,7 @@ func (obj *TileDef) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TileFlags", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TileFlags", err))
 	}
 	if (*(*(struct {
 		Texture
@@ -41225,7 +41225,7 @@ func (obj *TileDef) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AlignType", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AlignType", err))
 		}
 	}
 }
@@ -41298,7 +41298,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBoxType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.NodeBoxType", err))
 	}
 	if !((*(*(struct {
 		Type NodeBoxType
@@ -41346,7 +41346,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -41366,7 +41366,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -41386,7 +41386,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 	}
 	if t := (*(*(struct {
@@ -41464,7 +41464,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 			}
 		}
 	}
@@ -41499,7 +41499,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DirBoxes", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.DirBoxes", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -41519,7 +41519,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DirBoxes", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.DirBoxes", err))
 		}
 		if len(((*(*(struct {
 			Type NodeBoxType
@@ -41583,7 +41583,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 			}
 		}
 		if len(((*(*(struct {
@@ -41648,7 +41648,7 @@ func (obj *NodeBox) serialize(w io.Writer) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 			}
 		}
 	}
@@ -41684,7 +41684,7 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.NodeBoxType", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.NodeBoxType", err))
 	}
 	if !((*(*(struct {
 		Type NodeBoxType
@@ -41732,7 +41732,7 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -41752,7 +41752,7 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -41772,7 +41772,7 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 	}
 	if t := (*(*(struct {
@@ -41837,7 +41837,7 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 			}
 		}
 	}
@@ -41872,7 +41872,7 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DirBoxes", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.DirBoxes", err))
 		}
 		if err := pcall(func() {
 			((*(*(struct {
@@ -41892,7 +41892,7 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DirBoxes", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.DirBoxes", err))
 		}
 		var local389 uint16
 		{
@@ -41943,7 +41943,7 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 			}
 		}
 		var local391 uint16
@@ -41995,7 +41995,7 @@ func (obj *NodeBox) deserialize(r io.Reader) {
 				if err == io.EOF {
 					chk(io.EOF)
 				}
-				chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+				chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 			}
 		}
 	}
@@ -42262,7 +42262,7 @@ func (obj *AOInitData) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -42285,7 +42285,7 @@ func (obj *AOInitData) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 	for local396 := range (*(*(struct {
 
@@ -42464,7 +42464,7 @@ func (obj *AOInitData) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.AOID", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.AOID", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -42487,7 +42487,7 @@ func (obj *AOInitData) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Pos", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Pos", err))
 	}
 	for local401 := range (*(*(struct {
 
@@ -42787,7 +42787,7 @@ func (obj *ToolCaps) serialize(w io.Writer) {
 						if err == io.EOF {
 							chk(io.EOF)
 						}
-						chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ToolGroupCap", err))
+						chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ToolGroupCap", err))
 					}
 				}
 				if len(((*(*(struct {
@@ -42864,7 +42864,7 @@ func (obj *ToolCaps) serialize(w io.Writer) {
 						if err == io.EOF {
 							chk(io.EOF)
 						}
-						chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+						chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Group", err))
 					}
 				}
 				{
@@ -43099,7 +43099,7 @@ func (obj *ToolCaps) deserialize(r io.Reader) {
 						if err == io.EOF {
 							chk(io.EOF)
 						}
-						chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.ToolGroupCap", err))
+						chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.ToolGroupCap", err))
 					}
 				}
 				var local409 uint32
@@ -43160,7 +43160,7 @@ func (obj *ToolCaps) deserialize(r io.Reader) {
 						if err == io.EOF {
 							chk(io.EOF)
 						}
-						chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Group", err))
+						chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Group", err))
 					}
 				}
 				var local411 uint16
@@ -43201,7 +43201,7 @@ func (obj *TouchInteraction) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteractionMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TouchInteractionMode", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -43211,7 +43211,7 @@ func (obj *TouchInteraction) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteractionMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TouchInteractionMode", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -43221,7 +43221,7 @@ func (obj *TouchInteraction) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteractionMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TouchInteractionMode", err))
 	}
 }
 
@@ -43234,7 +43234,7 @@ func (obj *TouchInteraction) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteractionMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TouchInteractionMode", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -43244,7 +43244,7 @@ func (obj *TouchInteraction) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteractionMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TouchInteractionMode", err))
 	}
 	if err := pcall(func() {
 		((*(*(struct {
@@ -43254,7 +43254,7 @@ func (obj *TouchInteraction) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TouchInteractionMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TouchInteractionMode", err))
 	}
 }
 
@@ -43276,7 +43276,7 @@ func (obj *WearBarParams) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.BlendMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.BlendMode", err))
 	}
 	{
 		x := (*(*(struct {
@@ -43322,7 +43322,7 @@ func (obj *WearBarParams) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.BlendMode", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.BlendMode", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -43388,7 +43388,7 @@ func (obj *TweenF32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenStyle", err))
 	}
 	{
 		x := (*(*(struct {
@@ -43440,7 +43440,7 @@ func (obj *TweenF32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenStyle", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -43492,7 +43492,7 @@ func (obj *TweenV2F32) serialize(w io.Writer) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenStyle", err))
 	}
 	{
 		x := (*(*(struct {
@@ -43558,7 +43558,7 @@ func (obj *TweenV2F32) deserialize(r io.Reader) {
 		if err == io.EOF {
 			chk(io.EOF)
 		}
-		chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.TweenStyle", err))
+		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.TweenStyle", err))
 	}
 	{
 		p := &(*(*(struct {
@@ -43648,7 +43648,7 @@ func (obj *Box) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 		}
 	}
 }
@@ -43661,7 +43661,7 @@ func (obj *Box) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Vec", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Vec", err))
 		}
 	}
 }
@@ -43749,7 +43749,7 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 	}
 	if len(((*(*(struct {
@@ -43778,7 +43778,7 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 	}
 	if len(((*(*(struct {
@@ -43807,7 +43807,7 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 	}
 	if len(((*(*(struct {
@@ -43836,7 +43836,7 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 	}
 	if len(((*(*(struct {
@@ -43865,7 +43865,7 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 	}
 	if len(((*(*(struct {
@@ -43894,7 +43894,7 @@ func (obj *DirBoxes) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 	}
 }
@@ -43922,7 +43922,7 @@ func (obj *DirBoxes) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 	}
 	var local429 uint16
@@ -43947,7 +43947,7 @@ func (obj *DirBoxes) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 	}
 	var local431 uint16
@@ -43972,7 +43972,7 @@ func (obj *DirBoxes) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 	}
 	var local433 uint16
@@ -43997,7 +43997,7 @@ func (obj *DirBoxes) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 	}
 	var local435 uint16
@@ -44022,7 +44022,7 @@ func (obj *DirBoxes) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 	}
 	var local437 uint16
@@ -44047,7 +44047,7 @@ func (obj *DirBoxes) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.Box", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.Box", err))
 		}
 	}
 }
@@ -44176,7 +44176,7 @@ func (obj *ToolGroupCap) serialize(w io.Writer) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DigTime", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.DigTime", err))
 		}
 	}
 }
@@ -44277,7 +44277,7 @@ func (obj *ToolGroupCap) deserialize(r io.Reader) {
 			if err == io.EOF {
 				chk(io.EOF)
 			}
-			chk(fmt.Errorf("%s: %w", "github.com/HimbeerserverDE/mt.DigTime", err))
+			chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.DigTime", err))
 		}
 	}
 }

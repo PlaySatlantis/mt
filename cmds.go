@@ -4,7 +4,7 @@
 package mt
 
 import (
-	"github.com/HimbeerserverDE/mt/rudp"
+	"github.com/PlaySatlantis/mt/rudp"
 )
 
 type Cmd interface {
