@@ -28009,6 +28009,32 @@ func (obj *PlayerPos) serialize(w io.Writer) {
 		}))(obj)).Dir
 		write32(w, math.Float32bits(x))
 	}
+	{
+		x := (*(*(struct {
+			Pos100, Vel100   [3]int32
+			Pitch100, Yaw100 int32
+			Keys             Keys
+			FOV80            uint8
+			WantedRange      uint8 // in MapBlks.
+			Flags            PlayerPosFlags
+			Speed            float32
+			Dir              float32
+		}))(obj)).Speed
+		write32(w, math.Float32bits(x))
+	}
+	{
+		x := (*(*(struct {
+			Pos100, Vel100   [3]int32
+			Pitch100, Yaw100 int32
+			Keys             Keys
+			FOV80            uint8
+			WantedRange      uint8 // in MapBlks.
+			Flags            PlayerPosFlags
+			Speed            float32
+			Dir              float32
+		}))(obj)).Dir
+		write32(w, math.Float32bits(x))
+	}
 }
 
 func (obj *PlayerPos) deserialize(r io.Reader) {
@@ -28145,6 +28171,32 @@ func (obj *PlayerPos) deserialize(r io.Reader) {
 			chk(io.EOF)
 		}
 		chk(fmt.Errorf("%s: %w", "github.com/PlaySatlantis/mt.PlayerPosFlags", err))
+	}
+	{
+		p := &(*(*(struct {
+			Pos100, Vel100   [3]int32
+			Pitch100, Yaw100 int32
+			Keys             Keys
+			FOV80            uint8
+			WantedRange      uint8 // in MapBlks.
+			Flags            PlayerPosFlags
+			Speed            float32
+			Dir              float32
+		}))(obj)).Speed
+		*p = math.Float32frombits(read32(r))
+	}
+	{
+		p := &(*(*(struct {
+			Pos100, Vel100   [3]int32
+			Pitch100, Yaw100 int32
+			Keys             Keys
+			FOV80            uint8
+			WantedRange      uint8 // in MapBlks.
+			Flags            PlayerPosFlags
+			Speed            float32
+			Dir              float32
+		}))(obj)).Dir
+		*p = math.Float32frombits(read32(r))
 	}
 	{
 		p := &(*(*(struct {
